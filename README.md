@@ -1,5 +1,5 @@
 ```TypeScript
-// Hasham Cake – Full Stack Dev | Game Dev | AI Enthusiast
+// Hasham Asad – Full Stack Dev | Game Dev | AI Enthusiast
 
 type TechStack = {
   languages: ['JavaScript', 'TypeScript', 'Python', 'Kotlin', 'Dart', 'PHP', 'Lua'];
