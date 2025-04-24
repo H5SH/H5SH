@@ -1,36 +1,72 @@
-<h1 align="center">Hi 👋, I'm Developer Hasham Asad</h1>
-<h3 align="center">A passionate software developer who is always learning and growing</h3>
+```TypeScript
+// Hasham Cake – Full Stack Dev | Game Dev | AI Enthusiast
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=h5sh&label=Profile%20views&color=0e75b6&style=flat" alt="h5sh" /> </p>
+type TechStack = {
+  languages: ['JavaScript', 'TypeScript', 'Python', 'Kotlin', 'Dart', 'PHP', 'Lua'];
+  frameworks: ['React', 'Next.js', 'Flutter', 'Laravel', 'Jetpack Compose', 'Love2D'];
+  tools: ['Firebase', 'Supabase', 'PostgreSQL', 'FastAPI', 'YOLOv8', 'Agora', 'GraphQL'];
+};
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=h5sh" alt="h5sh" /></a> </p>
+type Project = {
+  title: string;
+  description: string;
+  tech: string[];
+  links: { live?: string; repo: string };
+};
 
-- 🔭 I’m currently working on [JavaScript Developer](https://github.com/H5SH/CS50G-Angry-Project6)
+const featuredProjects: Project[] = [
+  {
+    title: 'Procedural Mario Game',
+    description: 'Procedurally generated platformer with random keys, enemies, and level scaling.',
+    tech: ['Lua', 'Love2D', 'Procedural Gen'],
+    links: {
+      live: 'https://hasham-projects.vercel.app/',
+      repo: 'https://github.com/H5SH/CS50G-Mario-Project4',
+    },
+  },
+  {
+    title: 'Zelda-style Dungeon Adventure',
+    description: 'Top-down action game with sword mechanics, dungeon gen, and power-ups.',
+    tech: ['Lua', 'Love2D', 'Event System'],
+    links: {
+      live: 'https://hasham-projects.vercel.app/',
+      repo: 'https://github.com/H5SH/CS50G-Zelda-Project5',
+    },
+  },
+  {
+    title: 'Masked Input Field (Flutter Package)',
+    description: 'Customizable masked input with focus handling and input masks.',
+    tech: ['Flutter', 'Dart'],
+    links: {
+      live: 'https://pub.dev/packages/masked_boxed_field',
+      repo: 'https://github.com/H5SH/masked-boxed-field',
+    },
+  },
+  {
+    title: 'AI Contact Center Tester (PathSim)',
+    description: 'Automated testing platform using LLMs and voice interaction APIs.',
+    tech: ['FastAPI', 'YOLOv8', 'Retell AI', 'Vogent'],
+    links: {
+      repo: 'Private/Client Repo',
+    },
+  },
+];
 
-- 🌱 I’m currently learning **Unity**
+const contact: Record<'email' | 'portfolio' | 'github', string> = {
+  email: 'hasham.asad.b@gmail.com',
+  portfolio: 'https://hasham-projects.vercel.app/',
+  github: 'https://github.com/H5SH',
+};
 
-- 🤝 I’m looking for help with [Angry Birds game](https://github.com/H5SH/CS50G-Angry-Project6)
+// 👋 Hi, I’m Hasham
+console.log(`
+  Full-Stack Developer | Game Dev | AI Explorer
 
-- 👨‍💻 All of my projects are available at [https://github.com/H5SH](https://github.com/H5SH)
+  • Built 10+ games (Flappy, Breakout, Match-3, Mario, Zelda)
+  • Cross-platform apps with Flutter, React Native, Kotlin
+  • Real-time chat, video calls, smart inputs, and more
+  • YOLOv8 AI models for smoke, wire, and contact center testing
 
-- 💬 Ask me about **react, Nextjs**
-
-- 📫 How to reach me **hasham.asad.t@gmail.com**
-
-- 📄 Know about my experiences [https://hasham-projects.vercel.app/](https://hasham-projects.vercel.app/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/hasham asad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hasham asad" height="30" width="40" /></a>
-<a href="https://kaggle.com/h5shuf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="h5shuf" height="30" width="40" /></a>
-<a href="https://instagram.com/hashamasad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hashamasad" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://pugjs.org" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=h5sh&show_icons=true&locale=en&layout=compact" alt="h5sh" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=h5sh&show_icons=true&locale=en" alt="h5sh" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=h5sh&" alt="h5sh" /></p>
+  Let’s build cool stuff together!
+`);
+```
